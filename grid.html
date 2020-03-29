@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Sintony&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+    <title>Bootstrap_Grid</title>
+
+   
+    <style>
+        body {background-color: lightblue;
+    } 
+        h1 {text-align: center;}
+       
+        .grid-block {
+          background-color: gray;
+          min-height: 50px;
+          outline: 1px solid white;
+        }
+         p {
+            margin-top: 15px;
+             text-align: center;
+            
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h1>grid-block</h1> 
+    <div class="container-fluid">
+        
+        <div class="row">
+        <div class="col-12 grid-block"><p>12 blocks full</p></div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 grid-block">
+                <p>6 blocks</p>
+            </div>
+            <div class="col-6 grid-block">
+                <p>6 blocks</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-8 grid-block">
+                   <p> 8 blocks</p>
+                </div>
+            <div class="col-4 grid-block">
+                  <p>  4 blocks</p>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-5 grid-block">
+                <p>5 blocks</p>
+            </div>
+            <div class="col-5 grid-block">
+               <p>5 blocks</p>
+            </div>
+            <div class="col-2 grid-block">
+               <p> 2 blocks</p>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    
+
+</body>
+</html>
